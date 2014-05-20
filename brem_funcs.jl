@@ -2,8 +2,10 @@
 const c = 2.99792458e10		#speed of light [cm/s]
 const h = 6.6260755e-27		#Planck's constant [erg s]
 const k_B = 1.380658e-16	#Boltzmann's constant [erg K^-1]
-const m_e = 9.1093897e-28 	#electron mass [g] 
+const m_e = 9.1093897e-28 	#electron mass [g]
 const charge_e = 4.8032068e-10 	#electron charge [g^1/2 cm^3/2 s^-1 OR erg^1/2 cm^1/2]
+const alpha = 2pi*charge_e^2/(h*c) #fine structure constant [1]
+const r_0 = charge_e^2/(m_e*c^2) #classical electron radius [cm]
 
 ##########################################################################
 #                                                                        #
